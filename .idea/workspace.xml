@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23f3a8c4-740f-410a-afc4-a8e367911b9a" name="Default Changelist" comment="Add Article entity, Article fixtures">
+    <list default="true" id="23f3a8c4-740f-410a-afc4-a8e367911b9a" name="Default Changelist" comment="Dependency injection, render data in twig by repository">
+      <change afterPath="$PROJECT_DIR$/src/Form/ArticleType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/create.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -169,6 +179,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../xampp/htdocs" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -185,7 +196,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633161142253</updated>
-      <workItem from="1633161143665" duration="7661000" />
+      <workItem from="1633161143665" duration="14393000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1633161199239</created>
@@ -215,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633180895598</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dependency injection, render data in twig by repository">
+      <created>1633183136041</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633183136041</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +255,7 @@
     <MESSAGE value="Create BlogController &amp; home.html.twig" />
     <MESSAGE value="Add Bootswatch, Header, Route link to article list &amp; article detail" />
     <MESSAGE value="Add Article entity, Article fixtures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Article entity, Article fixtures" />
+    <MESSAGE value="Dependency injection, render data in twig by repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependency injection, render data in twig by repository" />
   </component>
 </project>
