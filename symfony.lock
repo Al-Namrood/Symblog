@@ -92,7 +92,7 @@
         "version": "4.4.3"
     },
     "monolog/monolog": {
-        "version": "2.3.4"
+        "version": "2.3.5"
     },
     "myclabs/deep-copy": {
         "version": "1.10.2"
