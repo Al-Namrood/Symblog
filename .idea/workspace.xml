@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23f3a8c4-740f-410a-afc4-a8e367911b9a" name="Default Changelist" comment="Add Bootswatch, Header, Route link to article list &amp; article detail">
-      <change beforePath="$PROJECT_DIR$/.idea/Symblog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Symblog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="23f3a8c4-740f-410a-afc4-a8e367911b9a" name="Default Changelist" comment="Add Article entity, Article fixtures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633161142253</updated>
-      <workItem from="1633161143665" duration="5393000" />
+      <workItem from="1633161143665" duration="7661000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1633161199239</created>
@@ -211,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633179097751</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Article entity, Article fixtures">
+      <created>1633180895598</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633180895598</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +236,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Create BlogController &amp; home.html.twig" />
     <MESSAGE value="Add Bootswatch, Header, Route link to article list &amp; article detail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Bootswatch, Header, Route link to article list &amp; article detail" />
+    <MESSAGE value="Add Article entity, Article fixtures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Article entity, Article fixtures" />
   </component>
 </project>

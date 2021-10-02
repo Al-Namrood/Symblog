@@ -5,29 +5,19 @@
 {% block body %}
 
     <section class="articles ">
-        <article class="p-2">
-            <h2>Titre de l'article</h2>
-            <div class="metadata">Ecrit le 10/05/2048 à 19:00 dans la catégorie Politique</div>
-            <div class="content">
-                <img src="http://placehold.it/350x150" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores assumenda beatae commodi
-                    consectetur cumque delectus, dignissimos dolorum et inventore itaque libero odit officiis porro quae
-                    quisquam recusandae reiciendis velit!</p>
-                <a href="{{ path('blog_show') }}" class="btn btn-primary">Lire la suite</a>
 
-            </div>
-        </article>
-        <article class="p-2">
-            <h2>Titre de l'article</h2>
-            <div class="metadata">Ecrit le 10/05/2048 à 19:00 dans la catégorie Politique</div>
-            <div class="content">
-                <img src="http://placehold.it/350x150" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores assumenda beatae commodi
-                    consectetur cumque delectus, dignissimos dolorum et inventore itaque libero odit officiis porro quae
-                    quisquam recusandae reiciendis velit!</p>
-                <a href="{{ path('blog_show') }}" class="btn btn-primary">Lire la suite</a>
-            </div>
-        </article>
+        {% for article in articles %}
+            <article class="p-2">
+                <h2>{{ article.title }}</h2>
+                <div class="metadata">{{ article.createdAt | date('d/m/Y') }}
+                    à {{ article.createdAt | date('H:i') }}</div>
+                <div class="content">
+                    <img src="{{ article.image }}" alt="">
+                    <p>{{ article.content }}</p>
+                    <a href="{{ path('blog_show', {'id': article.id}) }}" class="btn btn-primary">Lire la suite</a>
+                </div>
+            </article>
+        {% endfor %}
     </section>
 
 {% endblock %}
