@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23f3a8c4-740f-410a-afc4-a8e367911b9a" name="Default Changelist" comment="Dependency injection, render data in twig by repository">
-      <change afterPath="$PROJECT_DIR$/src/Form/ArticleType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/create.html.twig" afterDir="false" />
+    <list default="true" id="23f3a8c4-740f-410a-afc4-a8e367911b9a" name="Default Changelist" comment="Add create form, edit form, assert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20211002130522.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ArticleType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ArticleType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/create.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -196,7 +198,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633161142253</updated>
-      <workItem from="1633161143665" duration="14393000" />
+      <workItem from="1633161143665" duration="14454000" />
+      <workItem from="1633277257790" duration="69000" />
+      <workItem from="1633333903567" duration="37000" />
+      <workItem from="1633362446598" duration="8413000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1633161199239</created>
@@ -233,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633183136041</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add create form, edit form, assert">
+      <created>1633189842462</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633189842462</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +261,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
@@ -256,6 +269,7 @@
     <MESSAGE value="Add Bootswatch, Header, Route link to article list &amp; article detail" />
     <MESSAGE value="Add Article entity, Article fixtures" />
     <MESSAGE value="Dependency injection, render data in twig by repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dependency injection, render data in twig by repository" />
+    <MESSAGE value="Add create form, edit form, assert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add create form, edit form, assert" />
   </component>
 </project>
